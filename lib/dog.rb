@@ -4,8 +4,8 @@ attr_accessor :name, :breed
 
 
   def initialize(hash)
-    @name = name
-    @breed = breed
+    @name = hash[0]
+    @breed = hash[1]
   end
 
 end
